@@ -1,6 +1,6 @@
-@extends('layout.layout');
+@extends('layout.layout')
 
-@section('title', 'Home');
+@section('title', 'Home')
 
 @section('content')
     <div class="row">
