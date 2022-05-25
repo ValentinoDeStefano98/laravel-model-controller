@@ -11,6 +11,7 @@
                     <p class="card-text"><span class="text-danger">Language:</span>  {{ $movie->nationality }}</p>
                     <p class="card-text"><span class="text-danger">Release:</span> {{ $movie->date }}</p>
                     <p class="card-text"><span class="text-danger">Score:</span> {{ $movie->vote }}</p>
+                    <a href="#" class="btn btn-primary">Info</a>
                 </div>
 
             </div>

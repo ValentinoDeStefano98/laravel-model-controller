@@ -8,6 +8,7 @@
     <title>Home</title>
 </head>
 <body>
+    @include('includes.header')
     <div class="container">
         @yield('content')
     </div>
