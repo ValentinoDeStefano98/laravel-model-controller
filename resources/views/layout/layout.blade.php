@@ -8,8 +8,10 @@
     <title>Home</title>
 </head>
 <body>
+    <div class="container">
+        @yield('content');
+    </div>
     
-    @yield('content');
 
     <script src=" {{ asset('js/app.js') }} "></script>
 </body>
